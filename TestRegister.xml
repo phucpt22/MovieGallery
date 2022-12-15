@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestRegister" parallel="false">
+  <test name="TestRegister">
+    <classes>
+      <class name="fpoly.TestRegister">
+	      <methods>
+	    	<include name="LaunchWebsite"></include>
+	    	<include name="FillRegisterDetails"></include>
+	    	<include name="DoRegister"></include>
+	      </methods>
+      </class>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- Suite -->

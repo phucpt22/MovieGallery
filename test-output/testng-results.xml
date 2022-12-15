@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestHistory" duration-ms="37288" started-at="2022-12-02T23:55:35 ICT" finished-at="2022-12-02T23:56:13 ICT">
+    <groups>
+    </groups>
+    <test name="TestHistory" duration-ms="37288" started-at="2022-12-02T23:55:35 ICT" finished-at="2022-12-02T23:56:13 ICT">
+      <class name="fpoly.TestHistory">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:fpoly.TestHistory@78047b92]" name="suiteSetup" is-config="true" duration-ms="6426" started-at="2022-12-02T23:55:35 ICT" finished-at="2022-12-02T23:55:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="LaunchWebsite1()[pri:1, instance:fpoly.TestHistory@78047b92]" name="LaunchWebsite1" duration-ms="1460" started-at="2022-12-02T23:55:42 ICT" description="Opens the TestNG Demo Website for History Test" finished-at="2022-12-02T23:55:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite1 -->
+        <test-method status="PASS" signature="FillRegisterDetails()[pri:2, instance:fpoly.TestHistory@78047b92]" name="FillRegisterDetails" duration-ms="2970" started-at="2022-12-02T23:55:43 ICT" description="Fill the Regiser Details" finished-at="2022-12-02T23:55:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillRegisterDetails -->
+        <test-method status="PASS" signature="DoRegister()[pri:3, instance:fpoly.TestHistory@78047b92]" name="DoRegister" duration-ms="9860" started-at="2022-12-02T23:55:46 ICT" description="Perform Login" finished-at="2022-12-02T23:55:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoRegister -->
+        <test-method status="PASS" signature="LaunchWebsite2()[pri:4, instance:fpoly.TestHistory@78047b92]" name="LaunchWebsite2" duration-ms="4329" started-at="2022-12-02T23:55:56 ICT" description="Opens the TestNG Demo Website for History Test" finished-at="2022-12-02T23:56:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite2 -->
+        <test-method status="PASS" signature="VideoDetail()[pri:5, instance:fpoly.TestHistory@78047b92]" name="VideoDetail" duration-ms="3335" started-at="2022-12-02T23:56:00 ICT" description="Video detail" finished-at="2022-12-02T23:56:04 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoDetail -->
+        <test-method status="PASS" signature="LaunchWebsite3()[pri:6, instance:fpoly.TestHistory@78047b92]" name="LaunchWebsite3" duration-ms="1257" started-at="2022-12-02T23:56:04 ICT" description="Opens the TestNG Demo Website for History Test" finished-at="2022-12-02T23:56:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite3 -->
+        <test-method status="PASS" signature="LaunchWebsiteHistory()[pri:7, instance:fpoly.TestHistory@78047b92]" name="LaunchWebsiteHistory" duration-ms="5859" started-at="2022-12-02T23:56:05 ICT" description="Opens the TestNG Demo Website for History Test" finished-at="2022-12-02T23:56:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsiteHistory -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:fpoly.TestHistory@78047b92]" name="suiteTearDown" is-config="true" duration-ms="1665" started-at="2022-12-02T23:56:11 ICT" finished-at="2022-12-02T23:56:13 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- fpoly.TestHistory -->
+    </test> <!-- TestHistory -->
+  </suite> <!-- TestHistory -->
+</testng-results>

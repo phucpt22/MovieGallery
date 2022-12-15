@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestLogin" parallel="false">
+  <test name="TestLogin">
+    <classes>
+      <class name="fpoly.TestLogin">
+	      <methods>
+	    	<include name="LaunchWebsite"></include>
+	    	<include name="FillLoginDetails"></include>
+	    	<include name="DoLogin"></include>
+	      </methods>
+      </class>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestHistory" parallel="false">
+  <test name="TestHistory">
+    <classes>
+      <class name="fpoly.TestHistory">
+	      <methods>
+	    	<include name="LaunchWebsite1"></include>
+	    	<include name="FillRegisterDetails"></include>
+	    	<include name="DoRegister"></include>
+	    	<include name="LaunchWebsite2"></include>
+	    	<include name="VideoDetail"></include>
+	    	<include name="LaunchWebsite3"></include>
+	    	<include name="LaunchWebsiteHistory"></include>
+	      </methods>
+      </class>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- Suite -->

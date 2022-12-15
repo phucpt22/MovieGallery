@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestHistory]">
+  <test thread-count="5" name="TestHistory(failed)">
+    <classes>
+      <class name="fpoly.TestHistory">
+        <methods>
+          <include name="VideoDetail"/>
+          <include name="DoRegister"/>
+          <include name="LaunchWebsiteHistory"/>
+          <include name="LaunchWebsite2"/>
+          <include name="LaunchWebsite1"/>
+          <include name="FillRegisterDetails"/>
+          <include name="LaunchWebsite3"/>
+          <include name="suiteSetup"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- fpoly.TestHistory -->
+    </classes>
+  </test> <!-- TestHistory(failed) -->
+</suite> <!-- Failed suite [TestHistory] -->
